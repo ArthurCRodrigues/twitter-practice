@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      - cache:/root/.m2
+    environment:
+      SPRING_BOOT_DEVTOOLS_RESTART_ENABLED: "true"
+      SPRING_BOOT_DEVTOOLS_RESTART_TRIGGER_FILE: "pom.xml"
+    
+volumes:
+  cache:
