@@ -1,8 +1,10 @@
-# Twitter Backend API Simulation Challenge
+# Springboot - Twitter Backend API Simulation Challenge
 This challenge focuses on simulating a simplified Twitter API backend. Your goal is to implement a REST API that handles tweets and provides basic tweet management.
 
 ## 1. Introduction
-Your mission is to create a REST API that manages tweets. For this challenge, you can use any backend language or framework you prefer, but the core principles of a RESTful API should be followed.
+Your mission is to create a REST API that manages tweets. For this challenge, you can use any backend language or framework you prefer, but the core principles of a RESTful API should be followed. 
+
+**OBS:** I (Gabriel) added a docker compose and docker file which allows you to run your Springboot application on a container with live reload. Just ensure that you added Springboot DevTools to your dependencies, otherwise, it won't work. Also, ensure that all the code is in the root of this repository, I'll leave a sample.
 
 ## 2. Challenge Definition
 In this challenge, you MUST create a REST API to simulate a Twitter-like service. Pay close attention to all the following instructions!
